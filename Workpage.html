@@ -3,29 +3,54 @@
     <title>QuoteManage Agent</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header, main, footer {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <header style="display: flex; flex-direction: column; align-items: center;">
-        <img src="quotemanage_logo.jpg" alt="Logo" 
-             style="width: 100vw; max-width: 600px; height: auto; object-fit: contain; opacity: 0.9; margin-bottom: 0px; position: static;">
-        <h1 style="margin-top: 10px;">QuoteManage Agent</h1>
-    </header>
-    <main>
-        <section id="content">
-            <h2>Licensed Medicare Agent</h2>
-            <h1>Michael Millner</h1>
-            <img src="IMG_6990.jpg" alt="Michael Millner" style="width:150px; border-radius:50%; margin-bottom:10px;">
-            <p></p>
-        </section>
-        <section id="contact-info">
-            <h2>Contact Me</h2>
-            <p>Phone: <a href="tel:8554792226">(855) 479-2226</a></p>
-            <p>Email: <a href="mailto:Michael.Millner@quotemanage.com">Michael.Millner@quotemanage.com</a></p>
-            <p>QuoteManage Member Care: <a href="tel:8449603293">(844) 960-3293</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Workpage. All rights reserved.</p>
-    </footer>
-
+    <div class="container">
+        <header>
+            <img src="quotemanage_logo.jpg" alt="Logo" style="opacity: 0.9;">
+            <h1>QuoteManage Agent</h1>
+        </header>
+        <main>
+            <section id="content">
+                <h2>Licensed Medicare Agent</h2>
+                <h1>Michael Millner</h1>
+                <img src="IMG_6990.jpg" alt="Michael Millner" style="width:150px; border-radius:50%; margin-bottom:10px;">
+            </section>
+            <section id="contact-info">
+                <h2>Contact Me</h2>
+                <p>Phone: <a href="tel:8554792226">(855) 479-2226</a></p>
+                <p>Email: <a href="mailto:Michael.Millner@quotemanage.com">Michael.Millner@quotemanage.com</a></p>
+                <p>QuoteManage Member Care: <a href="tel:8449603293">(844) 960-3293</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Workpage. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
 </html>
